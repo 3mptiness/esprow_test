@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cell render input 1`] = `
+<td
+  style={
+    Object {
+      "height": 20,
+    }
+  }
+>
+  <input
+    className="Input"
+    defaultValue="value"
+    name="100500title"
+    onBlur={[Function]}
+    type="input"
+  />
+</td>
+`;
+
+exports[`Cell render radio 1`] = `
+<td
+  style={
+    Object {
+      "height": 20,
+    }
+  }
+>
+  <div
+    className="RadioCell"
+  >
+    <label
+      htmlFor="100500titletrue"
+    >
+      <span>
+        true
+      </span>
+      <input
+        className="Input"
+        defaultChecked={true}
+        id="100500titletrue"
+        name="100500title"
+        onBlur={[Function]}
+        type="radio"
+        value="true"
+      />
+    </label>
+    <label
+      htmlFor="100500titlefalse"
+    >
+      <span>
+        false
+      </span>
+      <input
+        className="Input"
+        defaultChecked={false}
+        id="100500titlefalse"
+        name="100500title"
+        onBlur={[Function]}
+        type="radio"
+        value="false"
+      />
+    </label>
+  </div>
+</td>
+`;
+
+exports[`Cell render textarea 1`] = `
+<td
+  style={
+    Object {
+      "height": 20,
+    }
+  }
+>
+  <textarea
+    className="Input"
+    defaultValue="long text"
+    name="100500title"
+    onBlur={[Function]}
+  />
+</td>
+`;

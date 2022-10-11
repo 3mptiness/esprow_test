@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Row success row render 1`] = `
+<tr>
+  <Memo
+    height={80}
+    id="100500"
+    index={10}
+    title="testKey"
+    type="input"
+    value="test data"
+  />
+</tr>
+`;

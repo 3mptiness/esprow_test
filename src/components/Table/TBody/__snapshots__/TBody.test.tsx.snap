@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TBody success TBody render 1`] = `
+<tbody>
+  <tr
+    style={
+      Object {
+        "height": 10,
+      }
+    }
+  />
+  <tr
+    style={
+      Object {
+        "height": 40,
+      }
+    }
+  />
+</tbody>
+`;

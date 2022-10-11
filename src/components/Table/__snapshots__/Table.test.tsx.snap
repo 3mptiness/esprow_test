@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table success render 1`] = `
+<div
+  className="Container"
+  onScroll={[MockFunction]}
+>
+  <table>
+    <Memo
+      getSortArrow={[MockFunction]}
+      headers={
+        Map {
+          "testKey" => "input",
+        }
+      }
+      toggleSort={[MockFunction]}
+    />
+    <Memo
+      fullHeight={80}
+      rowHeight={80}
+      rowsLength={1}
+      scroll={0}
+    >
+      <Memo
+        headers={
+          Map {
+            "testKey" => "input",
+          }
+        }
+        height={80}
+        id="id"
+        index={0}
+        onChange={[MockFunction]}
+        row={
+          Object {
+            "otherKey": "other data",
+            "testKey": "test data",
+          }
+        }
+      />
+    </Memo>
+  </table>
+</div>
+`;

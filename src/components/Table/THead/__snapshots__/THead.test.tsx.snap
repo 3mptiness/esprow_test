@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`THead success THead render 1`] = `
+<thead>
+  <tr>
+    <th
+      className="Column"
+      onClick={[Function]}
+    >
+      column
+      
+    </th>
+    <th
+      className="Column"
+      onClick={[Function]}
+    >
+      test
+      <span
+        className="Sort"
+      >
+        arrow
+      </span>
+    </th>
+  </tr>
+</thead>
+`;
